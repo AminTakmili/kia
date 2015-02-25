@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<link type="text/css" rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" >
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/font-awesome.min.css" >
+<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="js/cordova-2.3.0.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+var flag = 0 ; 
+</script>
+</head>
+<body onload="onLoad();">
+<div  data-role="page" id="faq" >
+  <div data-role="header" data-theme="b">
+    <h1 class="head_tt fa fa-recycle"><span>سوالات متدوال</span></h1>
+    <a href="#right-panel" data-icon="bars" id="menu_icon" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-nodisc-icon ui-btn-right">Open right panel</a> </div>
+  <!-- /header -->
+  <div role="main" class="ui-content">
+    <ul class="logo_name">
+      <li class="logo1"><img src="img/logo-color.png"></li>
+      <li class="logo2"><img src="img/logo-name.png"></li>
+    </ul>
+    <div class="content clear"><br>
+      <div class="colapse" data-role="collapsibleset" data-theme="a" data-content-theme="a"  data-iconpos="right">
+        <div data-role="collapsible">
+          <h4>آمادگی های پیش از عمل چیست؟</h4>
+          <p>
+          
+          - انجام آزمایشات لازم از حدود 10 روز قبل از عمل.<br>
+
+- مصرف داروهایی از قبیل مسکن های غیر استروئیدی (بروفن، ژلوفن ، مفنامیک اسید،    دیکلوفناک،سلکسیب ،ناپروکسن و....) ، آسپیرین وهمچنین مشروبات الکلی باید از  
+ حدود 10 روز قبل از عمل قطع شود.<br>
+
+- صرف صبحانه کامل در روز عمل.<br>
+
+- نیازی به حضور همراه در طول مدت عمل نیست و فقط زمان بازگشت به منزل بهتر است همراه داشته باشید.<br>
+
+          </p>
+        </div>
+        <div data-role="collapsible">
+          <h4>تا چه مدت بعد ازعمل باید گن پوشیده شود؟</h4>
+          <p>درمورد شکم و پهلو بهتر است تا 4 ، 5 روز از شکم بندهای کشی معمولی استفاده شود وپس از بسته شدن سوراخ ها از گن مخصوص لیپوماتیک به مدت یک ماه و نیم.</p>
+        </div>
+        <div data-role="collapsible">
+          <h4>مراقبتهای بعد از عمل چیست؟</h4>
+          <p>
+          - نوشیدن آب فراوان ، هر 2 ساعت یک لیوان
+<br>
+
+- ماساژ موضع عمل شده جهت تخلیه محلول بی حسی تزریق شده ترجیحا در شب اول هر سه ساعت و در روزهای بعد سه بار در روز.<br>
+
+- مراجعه به پزشک روزی یکبار در 3،4 روز بعد از عمل.<br>
+
+- پرهیز از خوردن غذاهای نمکی و پر چرب در ماه اول.<br>
+
+- عدم استفاده از کمپرس گرم و سرد بعد از عمل.<br>
+
+- عدم مصرف داروهایی که قبلا ذکر شد به تا حداقل یک هفته بعد از عمل.<br>
+
+          </p>
+        </div>
+        
+        <div data-role="collapsible">
+          <h4>کبودی و درد تا چه زمانی طول می کشد؟</h4>
+          <p> تا دو هفته، ولی استفاده از مسکن هایی مثل استامینوفن کدئین در هفته اول و یا ژلوفن از هفته دوم درد را قابل تحمل خواهد کرد.</p>
+        </div>
+        
+        
+        <div data-role="collapsible">
+          <h4>ورم تا کی ادامه دارد؟</h4>
+          <p>6 تا 8 هفته و نتیجه نهایی حدود 6 ماه بعد دیده می شود.</p>
+        </div>
+        
+      </div>
+      
+      <!-- /ui-content --> 
+    </div>
+    <!-- /content --> 
+  </div>
+  <!-- /ui-content -->
+  <div data-role="panel" id="right-panel" data-display="push" pn="panel" data-position="right" data-theme="b">
+    <div class="logo_menu">
+      <div id="card"><img src="img/logo-white.png"></div>
+      <h3>KIARASH<br>
+        CLINIC</h3>
+    </div>
+    <ul class="navbar">
+      <li><a href="index.html"    data-ajax="false"    data-transition="flip"><i class="fa fa-tachometer"></i>کیارش کلینیک</a></li>
+      <li><a href="blog.html"     data-ajax="false"   data-transition="flip"><i class="fa fa-newspaper-o"></i>آخرین مطالب</a></li>
+      <li><a href="service.html"   data-ajax="false"    data-transition="flip" ><i class="fa fa-newspaper-o"></i>سرویس های کلینیک</a></li>
+      <li><a href="callery.html"   data-ajax="false"   data-transition="flip" ><i class="fa fa-sort-numeric-asc"></i>لیپوماتیک</a></li>
+      <li><a href="gallery.html"  data-ajax="false"   data-transition="flip" ><i class="fa fa-picture-o"></i>گالری تصاویر</a></li>
+      <li><a href="faq.html"  data-ajax="false"   data-transition="flip"  class="active"><i class="fa fa-recycle"></i>نکات قبل و بعد عمل</a></li>
+     <li><a href="#" onclick="exitFromApp()"   data-ajax="false"  ><i class="fa fa-recycle"></i>خروج</a></li>
+    </ul>
+  </div>
+  <!-- /panel --> 
+  
+</div>
+</body>
+</html>

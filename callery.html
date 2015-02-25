@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<link type="text/css" rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" >
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/font-awesome.min.css" >
+<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="js/cordova-2.3.0.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+var flag = 0 ; 
+</script>
+</head>
+<body onload="onLoad();">
+<div  data-role="page" id="sample" >
+  <div data-role="header" data-theme="b">
+    <h1 class="head_tt fa fa-newspaper-o"><span>TITLE</span></h1>
+    <a href="#right-panel" data-icon="bars" id="menu_icon" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-nodisc-icon ui-btn-right">Open right panel</a> </div>
+  <!-- /header -->
+  <div role="main" class="ui-content">
+    <ul class="logo_name">
+      <li class="logo1"><img src="img/logo-color.png"></li>
+      <li class="logo2"><img src="img/logo-name.png"></li>
+    </ul>
+    <div class="content clear"><br>
+            
+         <!-- /ui-content -->
+      </div>
+    <!-- /content --> 
+  </div>
+  <!-- /ui-content -->
+  <div data-role="panel" id="right-panel" data-display="push" pn="panel" data-position="right" data-theme="b">
+    <div class="logo_menu">
+      <div id="card"><img src="img/logo-white.png"></div>
+      <h3>KIARASH<br>
+        CLINIC</h3>
+    </div>
+    <ul class="navbar">
+      <li><a href="index.html"   data-ajax="false"       data-transition="flip" ><i class="fa fa-tachometer"></i>کیارش کلینیک</a></li>
+      <li><a href="blog.html"  	  data-ajax="false"    data-transition="flip" ><i class="fa fa-newspaper-o"></i>آخرین مطالب</a></li>
+      <li><a href="service.html"   data-ajax="false"    data-transition="flip"  class="active"><i class="fa fa-newspaper-o"></i>سرویس های کلینیک</a></li>
+      <li><a href="callery.html"    data-ajax="false"     data-transition="flip" ><i class="fa fa-sort-numeric-asc"></i>لیپوماتیک</a></li>
+      <li><a href="gallery.html"    data-ajax="false"     data-transition="flip" ><i class="fa fa-picture-o"></i>گالری تصاویر</a></li>
+      <li><a href="faq.html"  	   data-ajax="false"   data-transition="flip" ><i class="fa fa-recycle"></i>نکات قبل و بعد عمل</a></li>
+     <li><a href="#" onclick="exitFromApp()"   data-ajax="false"  ><i class="fa fa-recycle"></i>خروج</a></li>
+    </ul>
+  </div>
+  <!-- /panel --> 
+  
+</div>
+</body>
+</html>
